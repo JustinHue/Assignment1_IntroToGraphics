@@ -38,13 +38,13 @@ def nodeOne():
 
 def checkNodeOne(chosenLandscape):
     print chosenLandscape
-    if chosenLandscape == 1:
+    if chosenLandscape == '1':
         print ('You approach the mysterious forest...')
         time.sleep(2)
         print ('It gets dark and spooky quickly. Trees surround you and begin to move...')
         time.sleep(2)
         print ('BAM! The trees begin to awake and attack you! What do you do?')
-    elif chosenLandscape == 2:
+    elif chosenLandscape == '2':
         print ('Hills')
 
 
